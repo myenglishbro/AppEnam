@@ -1,8 +1,18 @@
 body{
     font-size: 25px;
     font-family: monospace;
+    background: #a8ff78;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
+.print{
+    cursor: pointer;
+    background-color: aqua;
+    position: absolute;
+    top:80px;
+    left: 170px;
+}
 #container{
     margin : 20px auto;
     background-color: white;
@@ -15,17 +25,18 @@ body{
 #start{
     font-size: 1.5em;
     font-weight: bolder;
-
     border : 2px solid lightgrey;
     text-align: center;
     justify-content: center;
+    row-gap: 30px;
     cursor: pointer;
-    position: absolute;
-    margin-top: 260px;
-    margin-left: 330px;
     align-items: center;
     color : lightgrey;
     display: flex;
+    flex-direction: column;
+    left:230px;
+    top: 70px;
+    position: absolute;
 }
 
 #start:hover{
