@@ -6,6 +6,14 @@ body{
 
 }
 
+.col-img {
+    background-image: url(img/home-pic.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  }
+
+
 .print{
     cursor: pointer;
     background-color: aqua;
@@ -16,8 +24,7 @@ body{
 #contenedor{
     margin : 20px auto;
     background-color: white;
-    height: 600px;
-    width : 900px;
+  
     border-radius: 5px;
     box-shadow: 0px 5px 15px 0px;
     position: relative;
@@ -32,13 +39,12 @@ body{
     cursor: pointer;
     align-items: center;
     color : lightgrey;
-    display: flex;
-    flex-direction: column;
-    left:230px;
-    top: 70px;
-    position: absolute;
+    
+   
 }
-
+#quiz{
+    height:800px;
+}
 #start:hover{
     border: 3px solid lightseagreen;
     color : lightseagreen;
@@ -47,47 +53,30 @@ body{
 #qImg{
     width : 200px;
     height : 200px;
-    position: absolute;
-    left : 0px;
-    top : 0px;
+    
 }
 #qImg img{
-    width : 200px;
-    height : 200px;
+    width : 100px;
+    height : 100px;
     border-top-left-radius: 5px;
 }
 
-#question{
-    width:700px;
-    height : 125px;
-    position: absolute;
-    right:0;
-    top:0;
-}
+
 #question p{
     margin : 0;
     padding : 15px;
     font-size: 1.25em;
 }
 
-#choices{
-    width : 680px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    position: absolute;
-    right : 0;
-    margin-top: 210px;
-    padding : 10px
-}
+
 .choice{
-    flex: 1fr;
-    width : 605px;
+   
+  
     text-align: center;
     border : 1px solid grey;
     border-radius: 5px;
     cursor: pointer;
-    padding : 5px;
+    
 }
 .choice:hover{
     border : 2px solid grey;
@@ -95,7 +84,7 @@ body{
 }
 
 #timer{
-    position: absolute;
+ 
     height : 100px;
     width : 200px;
     bottom : 0px;
@@ -119,12 +108,12 @@ body{
     margin-left : 25px;
 }
 #progress{
-    width : 500px;
+    width : 800px;
     position: absolute;
     bottom : 0px;
     right : 0px;
     padding:5px;
-    text-align: right;
+    text-align: center;
 }
 .prog{
     width : 25px;
@@ -134,7 +123,8 @@ body{
     border-radius: 50%;
     margin-left : 5px;
     margin-right : 5px;
-}
+}  
+
 #scoreContainer{
     margin : 20px auto;
     background-color: white;
@@ -147,21 +137,19 @@ body{
     display: none;
 }
 #scoreContainer img{
-    position: absolute;
+   
     margin-top: 20px;
     top:200px;
-    left:200px;
+  
     align-items: center;
     width: 300px;
     height: 300px;
 }
 #scoreContainer p{
-    position: absolute;
-    display: block;
+   
     width : 59px;
     height :59px;
-    top:130px;
-    left:325px;
+  
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;

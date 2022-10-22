@@ -314,6 +314,11 @@ function renderCounter(){
 function checkAnswer(answer){
     if( answer == questions[runningQuestion].correct){
         // answer is correct
+        Swal.fire({
+            icon:'success',
+            text: 'Correct',
+           
+          })
         score++;
         // change progress color to green
         answerIsCorrect();
@@ -321,6 +326,11 @@ function checkAnswer(answer){
         // answer is wrong
         // change progress color to red
         answerIsWrong();
+        Swal.fire({
+            icon:'error',
+            title: 'Incorrect',
+  
+          })
     }
     count = 0;
     if(runningQuestion < lastQuestion){
@@ -348,30 +358,34 @@ function scoreRender(){
     scoreDiv.style.display = "block";
     
     // calculate the amount of question percent answered by the user
-    const scorePerCent = Math.round(100 * score/questions.length);
+    let scorePerCent = Math.round(100 * score/questions.length);
     
     // choose the image based on the scorePerCent
     let img = (scorePerCent >= 80) ? "img/5.gif" :
               (scorePerCent >= 60) ? "img/4.gif" :
               (scorePerCent >= 40) ? "img/3.gif" :
               (scorePerCent >= 20) ? "img/2.gif" :
-              "img/1.png";
-    scoreDiv.innerHTML = "<img src="+ img +">";
+              "img/1.gif";
+   scoreDiv.innerHTML = "<img src="+ img +">";
     scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
     
     imprimir=document.createElement('btn')
     imprimir.classList.add('print')
     imprimir.innerText='Click here to send results'
     
-    scoreDiv.append(imprimir)
+   scoreDiv.append(imprimir)
     imprimir.addEventListener('click',pdf)
 
+    
+
+    
+
+   
 }
 
 function pdf(){
     window.print()
 }
-
 
 
 
