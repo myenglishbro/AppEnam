@@ -370,12 +370,7 @@ function scoreRender(){
    scoreDiv.innerHTML = "<img src="+ img +">";
     scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
     
-    imprimir=document.createElement('btn')
-    imprimir.classList.add('print')
-    imprimir.innerText='Click here to send results'
     
-   scoreDiv.append(imprimir)
-    imprimir.addEventListener('click',pdf)
 
     
 
@@ -383,11 +378,6 @@ function scoreRender(){
 
    
 }
-
-function pdf(){
-    window.print()
-}
-
 
 
 
