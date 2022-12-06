@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Be 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container-fluid">
+        <div  id="contenedor">
+            <div id="start">
+                <p> Let's start! </p>
+                <p> Choose the best answer</p>
+                <img src="img/icon.webp">
+            </div>
+            
+            <div id="quiz" style="display: none">
+                
+                <div id="question">
+                    
+                </div>
+                <div id="qImg"></div>
+                <div id="choices">
+                    <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                    <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                    <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                    <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+                </div>
+                <div id="timer">
+                    <div id="counter"></div>
+                    <div id="btimeGauge"></div>
+                    <div id="timeGauge"></div>
+                </div>
+                <div id="progress"></div>
+            </div>
+            <div id="scoreContainer" style="display: none"></div> 
+
+
+    </main>
+    
+    </div>
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>

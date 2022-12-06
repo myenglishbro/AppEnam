@@ -206,41 +206,469 @@ let questions = [
         correct : "B"
     },
     {
-        question : "Before making a decision, the leader considered all ...... of the argument.",
+        question : "Prefiero hacer algo que me haga sentir realizado.",
         imgSrc : "img/patrick.gif",
-        choiceA : "sides",
-        choiceB : "features",
-        choiceC : "perspectives",
-        choiceD : "shades",
+        choiceA : "I would rather do what makes me feel fulfilled.",
+        choiceB : "I would rather do what makes me feel completed.",
+        choiceC : "I would rather do what makes me feel done.",
+        choiceD : "I would rather do what makes me feel ready.",
         correct : "A"
     },
     {
-        question : "This new printer is recommended as being ...... reliable.",
+        question : "La pandemia resultó ser un gran contratiempo para muchos negocios.",
         imgSrc : "img/patrick.gif",
-        choiceA : "greatly",
-        choiceB : "highly",
-        choiceC : "strongly",
-        choiceD : "readily",
+        choiceA : "The pandemic was a major sitback for many businesses",
+        choiceB : "The pandemic was a major setback for many businesses",
+        choiceC : "The pandemic was a great setback about many businesses",
+        choiceD : "The pandemic was a major setback in many businesses",
         correct : "B"
     },
     {
-        question : "When I realised I had dropped my gloves, I decided to ...... my steps.",
+        question : "Es obligatorio quitarse los zapatos.",
         imgSrc : "img/patrick.gif",
-        choiceA : "retrace",
-        choiceB : "regress",
-        choiceC : "resume",
-        choiceD : "return",
+        choiceA : "It’s compulsory to take your shoes off.",
+        choiceB : "It’s random to take your shoes off.",
+        choiceC : "It’s compulsive to take your shoes off.",
+        choiceD : "It’s a need to take your shoes off.",
         correct : "A"
     },
     {
-        question : "Anne's house is somewhere in the ...... of the railway station.",
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
         imgSrc : "img/patrick.gif",
-        choiceA : "region",
-        choiceB : "quarter",
-        choiceC : "vicinity",
-        choiceD : "district",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    },
+    
+    {
+        question : "Sé que ser presidenta de la empresa en un trabajo duro, pero no intentes abarcar más de la cuenta.",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I know being the SEO is hard work, but try not to bite off more than you can chew.",
+        choiceB : "I know being the CEO is hard work, but try not to bate off more than you can chew.",
+        choiceC : "I know being the SEO is hard work, but try not to bite off more than you can chew.",
+        choiceD : "I know being the CEO is hard work, but try not to bite off more than you can chew.",
+        correct : "D"
+    },
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
         correct : "C"
     }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+    ,
+    
+    {
+        question : "Estoy completamente decepcionado con el nuevo becario. No sabe hacer la O con un canuto",
+        imgSrc : "img/patrick.gif",
+        choiceA : "I am great disappointed with the new intern. He’s completely useless.",
+        choiceB : "I am utterly disappointed for the new intern. He’s completely useless.",
+        choiceC : "I am utterly disappointed with the new intern. He’s completely useless.",
+        choiceD : "I am utterly disappointed with the new becary. He’s completely useless.",
+        correct : "C"
+    }
+
 
 
 ];
