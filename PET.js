@@ -16,7 +16,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {
-        question : "What is the girl going to bring for the picnic?",
+        question : "What Does it say?",
         imgSrc : "img/patrick.gif",
         choiceA : "A",
         choiceB : "B",
